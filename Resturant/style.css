@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#delivery-section,#adantage-section,#search-section,#deal-section,#popular-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navigation-section{
+    padding: 20px;
+}
+.navigation-class{
+    justify-content: space-around;
+}
+.logo{
+    color: #FFB30E;
+    font-family: "Qwigley", cursive;
+    font-weight: 800;
+    font-size: 40px;
+}
+.login-button{
+    border: 1px solid #F17228;
+    border-radius: 5px;
+    padding: 7px;
+    background: transparent;
+    color: #F17228;
+    font-size: 18px;
+}
+#home-section{
+    background-color: #FDBE35;
+}
+#home-section h1{
+    color: white;
+    font-family: "Qwigley", cursive;
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    font-weight: 500;
+}
+#home-section h5{
+    color: #504F4F;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 10px;
+}
+.home-main-items{
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.home-details{
+    display: flex;
+}
+.home-items{
+    background-color: white;
+    margin-top: 15px;
+    width: 140%;
+    padding: 10px;
+    border-radius: 25px;
+}
+.home-delivery-button{
+    padding: 3px;
+    color: #F17228;
+    background-color: #F172281A;
+    border-radius: 5px;
+}
+.home-pickup-button{
+    margin-top: 22px;
+}
+.home-find-button{
+    background-color: #FF7A7A;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+.home-details p{
+    margin-right: 20px;
+}
+.home-items input{
+    background-color: #F5F5F5;
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+.text-orange{
+    color: #F17228;
+}
+.delivery-items h3{
+    color: #424242;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.delivery-button{
+    padding: 7px;
+    color: #F17228;
+    background-color: #F1722833;
+    width: 50%;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 10px;
+}
+.delivery-items >div{
+    margin: 10px;
+}
+.vertical-line{
+    border: 2px solid lightgrey;
+    height: 60px;
+    margin: 0px 20px 0px 30px;
+}
+.advantage-items >div{
+    margin: 10px;
+}
+#search-section{
+    background-color: hwb(0 83% 17% / 0.411);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search-items h5{
+    text-align: center;
+    color: #424242;
+}
+.search-items >div{
+    margin: 10px;
+}
+.deal-items{
+    display: flex;
+    justify-content: space-around;
+}
+.deal-items h1{
+    font-size: 40px;
+}
+.deal-items h5{
+    color: #616161B0;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.deal-first-items{
+    width: 40%;
+}
+.popular-items >div{
+    margin: 10px;
+}
+.order-button{
+    background-color: #FFB30E;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+#contact-section{
+    padding-top: 50px;
+    padding-top: 50px;
+    background-color: #090D12;
+    color: white;
+}
+.horizontal-line{
+    border-top: 1px solid lightgrey;
+    /* padding: 10px; */
+}
+.contact-items{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-sub-items{
+    align-items: start;
+}
+.contact-sub-items div{
+    margin-right: 30px;
+}
+.contact-items h5 {
+    font-weight: lighter;
+    font-size: 12px;
+}
+.contact-input{
+    background-color: #ADADAD;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+.contact-subscribe-button{
+    color: white;
+    background-color: #FFB800;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+@media (max-width: 800px){
+    .flex{
+        flex-wrap: wrap
+    }
+    .home-items{
+        width: 80%;
+    }
+    #home-section{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .home-items input{
+        width: 45%;
+    }
+    .home-img img{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .delivery-items h3{
+        text-align: center;
+    }
+    .delivery-button{
+        width: 90%;
+    }
+    #delivery-section,#adantage-section,#search-section,#deal-section,#popular-section,#contact-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .advantage-items h3{
+        margin: 25px;
+    }
+    #search-section h3{
+        text-align: center;
+    }
+    .deal-img img{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .popular-items h3{
+        text-align: center;
+    }
+    .contact-follow{
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-content{
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+}
+.home-find-button:hover{
+    background-color: aqua;
+}
+img:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
+}
